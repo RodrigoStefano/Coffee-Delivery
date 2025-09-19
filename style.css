@@ -45,8 +45,8 @@
     --text-xs: 600 0.75rem/1.3 var(--roboto);
 
     --text-tag: 600 0.625rem/1.3 var(--roboto);
-    --text-button-g: 600 0.875rem/1.3 var(--roboto);
-    --text-button-m: 400 0.75rem/1.3 var(--roboto);
+    --text-button-g: 600 0.875rem/1.6 var(--roboto);
+    --text-button-m: 400 0.75rem/1.6 var(--roboto);
 
 }
 /* Default */
@@ -55,12 +55,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 button{
     cursor: pointer;
 }
 a{
     text-decoration: none;
+}
+i{
+    font-size: 1rem;
+    color: var(--purple);
 }
 
 /* CLASS COMPONENTS */
@@ -73,9 +78,26 @@ a{
     border-radius: 6px;
     color: var(--white);
     transition: background-color 0.2s linear;
+    text-transform: uppercase;
 }
 .button-text:hover{
     background-color: var(--yellow-dark);
+}
+.button-icon-and-text{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--base-button);
+    font: var(--text-button-m);
+    text-transform: uppercase;
+    transition: background-color 0.2s linear;
+}
+.button-icon-and-text:hover{
+    background-color: var(--base-hover);
 }
 .title-xl{
     font: var(--title-xl);
