@@ -51,6 +51,7 @@
 }
 /* Default */
 #components-page{
+    padding: 1rem;
     width: 360px;
     display: flex;
     flex-direction: column;
@@ -62,10 +63,6 @@ button{
 }
 a{
     text-decoration: none;
-}
-i{
-    font-size: 1rem;
-    color: var(--purple);
 }
 
 /* CLASS COMPONENTS */
@@ -84,6 +81,7 @@ i{
     background-color: var(--yellow-dark);
 }
 .button-icon-and-text{
+    width: max-content;
     padding: 8px;
     display: flex;
     align-items: center;
@@ -98,6 +96,25 @@ i{
 }
 .button-icon-and-text:hover{
     background-color: var(--base-hover);
+}
+.button-icon-and-text i{
+    font-size: 1rem;
+    color: var(--purple);
+}
+.button-icon{
+    width: max-content;
+    padding: 8px;
+    background-color: var(--purple-dark);
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s linear;
+}
+.button-icon:hover{
+    background-color: var(--purple);
+}
+.button-icon i{
+    font-size: 1.375rem;
+    color: var(--white);
 }
 .title-xl{
     font: var(--title-xl);
