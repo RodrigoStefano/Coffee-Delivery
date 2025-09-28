@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="stylesheet"
@@ -15,32 +15,81 @@
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <img src="./image/svg/logo.svg" alt="Logo Coffee Delivery" />
 
-  <header>
-    <nav>
-      <img src="/image/svg/logo.svg" alt="Logo Coffee Delivery">
-
-      <div>
-        <div>
-          <i class="ph ph-map-pin"></i>
-          <span>Porto Alegre, RS</span>
+      <div id="info-header">
+        <div id="location">
+          <i class="ph-fill ph-map-pin"></i>
+          <span> Porto Alegre, RS </span>
         </div>
-        
-        <a href="#">
-          <i class="ph ph-shopping-cart"></i>
+
+        <a href="#" class="cart">
+          <i class="ph-fill ph-shopping-cart"></i>
+          <span id="qtn-itens" class="hidden"> 0 </span>
         </a>
       </div>
-    </nav>
-  </header>
+    </header>
 
-</body>
+    <main>
+      <section id="intro">
+        <div id="intro-content">
+          <div id="title">
+            <h1 class="title-xl">
+              Encontre o café perfeito para qualquer hora do dia
+            </h1>
+            <p class="text-l-regular">
+              Com o Coffee Delivery você recebe seu café onde estiver, a
+              qualquer hora
+            </p>
+          </div>
+
+          <div id="items">
+            <div class="item">
+              <i
+                class="ph-fill ph-shopping-cart"
+                style="background-color: var(--yellow-dark)"
+              ></i>
+              <span> Compra simples e segura </span>
+            </div>
+            <div class="item">
+              <i
+              class="ph-fill ph-package"
+              style="background-color: var(--base-text)"
+              ></i>
+              <span> Embalagem mantém o café intacto </span>
+            </div>
+            <div class="item">
+              <i
+                class="ph-fill ph-timer"
+                style="background-color: var(--yellow)"
+              ></i>
+              <span> Entrega rápida e rastreada </span>
+            </div>
+            <div class="item">
+              <i
+                class="ph-fill ph-coffee"
+                style="background-color: var(--purple)"
+              ></i>
+              <span> O café chega fresquinho até você </span>
+            </div>
+          </div>
+        </div>
+
+        <img src="./image/Imagem.png" alt="" />
+      </section>
+    </main>
+  </body>
 </html>

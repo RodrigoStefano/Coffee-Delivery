@@ -23,28 +23,49 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
 
     <title>Document</title>
   </head>
 
   <body>
+    <header>
+      <img src="./image/svg/logo.svg" alt="Logo Coffee Delivery" />
+      
+      <div id="info-header">
+        <div id="location">
+          <i class="ph-fill ph-map-pin"></i>
+          <span> Porto Alegre, RS </span>
+        </div>
+
+        <a href="#" class="cart">
+          <i class="ph-fill ph-shopping-cart"></i>
+          <span id="qtn-itens" class="hidden"> 0 </span>
+        </a>
+      </div>
+    </header>
+
     <h1 class="title-xl">Componentes</h1>
 
     <main id="components-page">
       <button class="button-text">Texto Padrão</button>
+
       <button class="button-icon-and-text">
         <i class="ph ph-trash"></i>
         <span> remover </span>
       </button>
+
       <button class="button-icon">
         <i class="ph ph-shopping-cart-simple"></i>
       </button>
-      <a href="#" class="cart">
-        <i class="ph ph-shopping-cart"></i>
-        <span class="hidden">
-          3
-        </span>
-      </a>
+
+      <button id="plus" class="button-icon">
+        <i class="ph ph-plus"></i>
+      </button>
+
+      <button id="minus" class="button-icon">
+        <i class="ph ph-minus"></i>
+      </button>
     </main>
   </body>
 </html>
