@@ -229,6 +229,41 @@ a {
     color: var(--base-text);
 }
 
+.coffee-card{
+    width: 16rem;
+    padding: 0 1.5rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.coffee-card img{
+    margin-bottom: 0.75rem;
+}
+.tag-coffee{
+    width: max-content;
+    margin-bottom: 1.25rem;
+    padding: 4px 8px;
+    border-radius: 100px;
+    font: var(--text-tag);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--yellow-light);
+    color: var(--yellow-dark);
+}
+.coffee-card .name-coffee{
+    margin-bottom: 8px;
+    font: var(--title-s);
+    color: var(--base-subtitle);
+}
+.coffee-card .description{
+    margin-bottom: 2.0625rem;
+    font: var(--text-s);
+    color: var(--base-label);
+    text-align: center;
+}
+
 .hidden {
     display: none;
 }
@@ -281,4 +316,17 @@ a {
     display: grid;
     grid-template-columns: max-content 1fr;
     gap: 1.25rem 2.5rem;
+}
+
+#coffee-list{
+    padding: 2rem 0;
+}
+#coffee-list h2{
+    font: var(--title-l);
+    color: var(--base-subtitle);
+    margin-bottom: 3.375rem;
+}
+#coffee-list #list{
+    display: flex;
+    flex-wrap: wrap;
 }
