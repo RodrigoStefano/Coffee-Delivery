@@ -236,7 +236,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 .coffee-card img{
     margin-bottom: 0.75rem;
@@ -263,6 +262,54 @@ a {
     color: var(--base-label);
     text-align: center;
 }
+
+.buy{
+    display: flex;
+    gap: 1.4375rem;
+    align-items: center;
+    justify-content: center;
+}
+.buy .price-container{
+    font: var(--text-s);
+    color: var(--base-text);
+}
+.buy .price-container .price{
+    font: var(--title-m);
+    color: var(--base-text);
+}
+
+.actions{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.actions .counter{
+    padding: 8px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--base-button);
+    border-radius: 6px;
+}
+.counter button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+.counter button i{
+    width: 0.875rem;
+    height: 0.875rem;
+    color: var(--purple-dark);
+}
+.counter span{
+    font: var(--text-m-regular);
+    color: var(--base-title);
+}
+
 
 .hidden {
     display: none;
@@ -328,5 +375,6 @@ a {
 }
 #coffee-list #list{
     display: flex;
+    gap: 2rem;
     flex-wrap: wrap;
 }
