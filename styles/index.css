@@ -19,11 +19,17 @@
 
 .coffee-card {
     width: 16rem;
-    padding: 0 1.5rem 1.25rem;
+    padding: 1.25rem 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: background 0.2s linear;
+}
+.coffee-card:hover{
+    background-color: var(--base-card);
 }
 
 .coffee-card img {

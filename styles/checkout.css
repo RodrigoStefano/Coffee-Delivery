@@ -1,6 +1,5 @@
 @import url(./global.css);
 
-
 #main-checkout-container {
     padding: 2.5rem 0;
     display: flex;
@@ -34,8 +33,47 @@
     color: var(--base-subtitle);
     text-align: left;
 }
-#coffees-selected-container{
+
+#coffees-selected-container {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
+    gap: 3rem;
+}
+
+.coffee-card-checkout {
+    padding: 8px 4px;
+    max-height: 5rem;
+    display: flex;
+    gap: 1.25rem;
+    background-color: transparent;
+    transition: background 0.2s linear;
+}
+
+.coffee-card-checkout:hover {
+    background-color: var(--base-card);
+}
+
+.coffee-card-checkout img {
+    width: auto;
+    height: 4rem;
+}
+
+.coffee-card-checkout .details-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-card-checkout .details-actions span:first-child {
+    font: var(--text-m-regular);
+    color: var(--base-subtitle);
+}
+
+.coffee-card-checkout .price {
+    margin-left: auto;
+    font: var(--text-m-bold);
+    color: var(--base-text);
 }
