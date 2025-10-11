@@ -1,0 +1,41 @@
+@import url(./global.css);
+
+
+#main-checkout-container {
+    padding: 2.5rem 0;
+    display: flex;
+    gap: 2rem;
+}
+
+#delivery-address {
+    width: 40rem;
+}
+
+#delivery-address h2 {
+    margin-bottom: 1rem;
+    font: var(--title-xs);
+    color: var(--base-subtitle);
+    text-align: left;
+}
+
+#delivery-address-container {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#coffees-selected {
+    flex: 1;
+}
+
+#coffees-selected h2 {
+    margin-bottom: 1rem;
+    font: var(--title-xs);
+    color: var(--base-subtitle);
+    text-align: left;
+}
+#coffees-selected-container{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}

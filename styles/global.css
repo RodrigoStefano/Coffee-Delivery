@@ -69,7 +69,7 @@ header {
     justify-content: space-between;
 }
 
-main{
+main {
     margin: 0 auto;
     max-width: 70rem;
 }
@@ -81,6 +81,7 @@ button {
 a {
     text-decoration: none;
 }
+
 
 /* CLASS COMPONENTS */
 .button-text {
@@ -172,75 +173,59 @@ a {
     font: var(--title-xl);
 }
 
-.title-l{
+.title-l {
     font: var(--title-l);
 }
-.title-m{
+
+.title-m {
     font: var(--title-m);
 }
-.title-s{
+
+.title-s {
     font: var(--title-s);
 }
-.title-xs{
+
+.title-xs {
     font: var(--title-xs);
 }
 
-.text-l-bold{
+.text-l-bold {
     font: var(--text-l-bold);
 }
-.text-l-regular{
+
+.text-l-regular {
     font: var(--text-l-regular);
 }
-.text-m-bold{
+
+.text-m-bold {
     font: var(--text-m-bold);
 }
-.text-m-regular{
+
+.text-m-regular {
     font: var(--text-m-regular);
 }
-.text-s{
+
+.text-s {
     font: var(--text-s);
 }
-.text-xs{
+
+.text-xs {
     font: var(--text-xs);
 }
 
-.text-tag{
+.text-tag {
     font: var(--text-tag);
 }
-.text-button-g{
+
+.text-button-g {
     font: var(--text-button-g);
 }
-.text-button-m{
+
+.text-button-m {
     font: var(--text-button-m);
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-.item i{
-    border-radius: 100%;
-    padding: 8px;
-    color: var(--white);
-}
-.item span{
-    font: var(--text-m-regular);
-    color: var(--base-text);
-}
-
-.coffee-card{
-    width: 16rem;
-    padding: 0 1.5rem 1.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.coffee-card img{
-    margin-bottom: 0.75rem;
-}
-.tag-coffee{
+.tag-coffee {
     width: max-content;
     margin-bottom: 1.25rem;
     padding: 4px 8px;
@@ -251,40 +236,45 @@ a {
     background-color: var(--yellow-light);
     color: var(--yellow-dark);
 }
-.coffee-card .name-coffee{
+
+.coffee-card .name-coffee {
     margin-bottom: 8px;
     font: var(--title-s);
     color: var(--base-subtitle);
 }
-.coffee-card .description{
+
+.coffee-card .description {
     margin-bottom: 2.0625rem;
     font: var(--text-s);
     color: var(--base-label);
     text-align: center;
 }
 
-.buy{
+.buy {
     display: flex;
     gap: 1.4375rem;
     align-items: center;
     justify-content: center;
 }
-.buy .price-container{
+
+.buy .price-container {
     font: var(--text-s);
     color: var(--base-text);
 }
-.buy .price-container .price{
+
+.buy .price-container .price {
     font: var(--title-m);
     color: var(--base-text);
 }
 
-.actions{
+.actions {
     display: flex;
     gap: 8px;
     align-items: center;
     justify-content: center;
 }
-.actions .counter{
+
+.actions .counter {
     padding: 8px;
     display: flex;
     gap: 4px;
@@ -293,19 +283,22 @@ a {
     background-color: var(--base-button);
     border-radius: 6px;
 }
-.counter button{
+
+.counter button {
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     background: none;
 }
-.counter button i{
+
+.counter button i {
     width: 0.875rem;
     height: 0.875rem;
     color: var(--purple-dark);
 }
-.counter span{
+
+.counter span {
     font: var(--text-m-regular);
     color: var(--base-title);
 }
@@ -314,6 +307,7 @@ a {
 .hidden {
     display: none;
 }
+
 
 #info-header {
     display: flex;
@@ -338,43 +332,4 @@ a {
 #location span {
     font: var(--text-s);
     color: var(--purple-dark);
-}
-
-#intro{
-    padding: 5.875rem 0 6.75rem;
-    display: flex;
-    gap: 3.5rem;
-}
-#intro img{
-    flex: 1;
-}
-#intro-content{
-    display: flex;
-    flex-direction: column;
-    gap: 4.125rem;
-}
-#intro-content #title{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-#items{
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    gap: 1.25rem 2.5rem;
-}
-
-#coffee-list{
-    padding: 2rem 0;
-}
-#coffee-list h2{
-    font: var(--title-l);
-    color: var(--base-subtitle);
-    margin-bottom: 3.375rem;
-}
-#coffee-list #list{
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
 }

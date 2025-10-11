@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/checkout.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="./image/svg/logo.svg" alt="Logo Coffee Delivery" />
+
+      <div id="info-header">
+        <div id="location">
+          <i class="ph-fill ph-map-pin"></i>
+          <span> Porto Alegre, RS </span>
+        </div>
+
+        <a href="#" class="cart">
+          <i class="ph-fill ph-shopping-cart"></i>
+          <span id="qtn-itens" class="hidden"> 0 </span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div id="main-checkout-container">
+        <div id="delivery-address">
+          <h2>Complete seu pedido</h2>
+          <div id="delivery-address-container">
+            <div id="address"></div>
+          </div>
+        </div>
+
+        <div id="coffees-selected">
+          <h2>Cafés selecionados</h2>
+          <div id="coffees-selected-container">
+            <div class="coffee-card-checkout">
+              <img
+                src="./image/products/Expresso.png"
+                alt="imagem de uma xicara de café expresso"
+              />
+              <div class="details-actions">
+                <span> Expresso Tradicional </span>
+                <div class="actions">
+                  <div class="counter">
+                    <button>
+                      <i class="ph ph-minus"></i>
+                    </button>
+                    <span> 0 </span>
+                    <button>
+                      <i class="ph ph-plus"></i>
+                    </button>
+                  </div>
+                  <button class="button-icon-and-text">
+                    <i class="ph ph-trash"></i>
+                    <span> remover </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
