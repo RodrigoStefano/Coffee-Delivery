@@ -31,21 +31,21 @@
     --roboto: "Roboto", sans-serif;
 
     /* TOPOGRAPHY */
-    --title-xl: 700 3rem/1.3 var(--balloo2);
-    --title-l: 700 2rem/1.3 var(--balloo2);
-    --title-m: 700 1.5rem/1.3 var(--balloo2);
-    --title-s: 600 1.25rem/1.3 var(--balloo2);
-    --title-xs: 600 1.125rem/1.3 var(--balloo2);
+    --title-xl: 900 3rem/1.3 var(--balloo2);
+    --title-l: 900 2rem/1.3 var(--balloo2);
+    --title-m: 900 1.5rem/1.3 var(--balloo2);
+    --title-s: 700 1.25rem/1.3 var(--balloo2);
+    --title-xs: 700 1.125rem/1.3 var(--balloo2);
 
-    --text-l-bold: 600 1.25rem/1.3 var(--roboto);
+    --text-l-bold: 700 1.25rem/1.3 var(--roboto);
     --text-l-regular: 400 1.25rem/1.3 var(--roboto);
-    --text-m-bold: 600 1rem/1.3 var(--roboto);
+    --text-m-bold: 700 1rem/1.3 var(--roboto);
     --text-m-regular: 400 1rem/1.3 var(--roboto);
     --text-s: 400 0.875rem/1.3 var(--roboto);
-    --text-xs: 600 0.75rem/1.3 var(--roboto);
+    --text-xs: 700 0.75rem/1.3 var(--roboto);
 
-    --text-tag: 600 0.625rem/1.3 var(--roboto);
-    --text-button-g: 600 0.875rem/1.6 var(--roboto);
+    --text-tag: 700 0.625rem/1.3 var(--roboto);
+    --text-button-g: 700 0.875rem/1.6 var(--roboto);
     --text-button-m: 400 0.75rem/1.6 var(--roboto);
 
 }
