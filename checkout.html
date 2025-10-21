@@ -47,8 +47,100 @@
       <div id="main-checkout-container">
         <div id="delivery-address">
           <h2>Complete seu pedido</h2>
-          <div id="delivery-address-container">
-            <div id="address"></div>
+          <div id="delivery-checkout-container">
+            <div id="address">
+              <div id="address-title">
+                <div class="title-svg">
+                  <i
+                    class="ph ph-map-pin-line"
+                    style="color: var(--yellow-dark)"
+                  ></i>
+                </div>
+                <div class="title-text">
+                  <h3>Endereço de Entrega</h3>
+                  <p>Informe o endereço onde deseja receber seu pedido</p>
+                </div>
+              </div>
+              <form>
+                <input
+                  type="text"
+                  placeholder="CEP"
+                  class="input-size-medium"
+                />
+                <input type="text" placeholder="Rua" />
+                <div id="address-number-and-complement">
+                  <input
+                    type="text"
+                    placeholder="Número"
+                    class="input-size-medium"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Complemento"
+                    class="input-size-full"
+                  />
+                </div>
+                <div id="address-neighborhood-and-city">
+                  <input
+                    type="text"
+                    placeholder="Bairro"
+                    class="input-size-medium"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Cidade"
+                    class="input-size-full"
+                  />
+                  <input
+                    type="text"
+                    placeholder="UF"
+                    class="input-size-small"
+                  />
+                </div>
+              </form>
+            </div>
+            <div id="payment">
+              <div id="payment-title">
+                <div class="title-svg">
+                  <i
+                    class="ph ph-currency-dollar"
+                    style="color: var(--purple)"
+                  ></i>
+                </div>
+                <div class="title-text">
+                  <h3>Pagamento</h3>
+                  <p>
+                    O pagamento é feito na entrega. Escolha a forma que deseja
+                    pagar
+                  </p>
+                </div>
+              </div>
+              <form>
+                <fieldset>
+                  <div>
+                    <input type="radio" name="payment-method" id="card" />
+                    <label for="card">
+                      <i class="ph ph-credit-card"></i>
+                      Cartão
+                    </label>
+                  </div>
+                  <div>
+                    <input type="radio" name="payment-method" id="pix" />
+                    <label for="pix">
+                      <i class="ph ph-pix-logo"></i>
+                      Pix
+                    </label>
+                  </div>
+                  <div>
+                    <input type="radio" name="payment-method" id="money" />
+                    <label for="money">
+                      <i class="ph ph-bank"></i>
+                      Dinheiro
+                    </label>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
 

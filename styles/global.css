@@ -82,6 +82,10 @@ a {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+}
+
 
 /* CLASS COMPONENTS */
 .button-text {
@@ -167,62 +171,6 @@ a {
     font: var(--text-xs);
     line-height: 1.6;
     color: var(--white);
-}
-
-.title-xl {
-    font: var(--title-xl);
-}
-
-.title-l {
-    font: var(--title-l);
-}
-
-.title-m {
-    font: var(--title-m);
-}
-
-.title-s {
-    font: var(--title-s);
-}
-
-.title-xs {
-    font: var(--title-xs);
-}
-
-.text-l-bold {
-    font: var(--text-l-bold);
-}
-
-.text-l-regular {
-    font: var(--text-l-regular);
-}
-
-.text-m-bold {
-    font: var(--text-m-bold);
-}
-
-.text-m-regular {
-    font: var(--text-m-regular);
-}
-
-.text-s {
-    font: var(--text-s);
-}
-
-.text-xs {
-    font: var(--text-xs);
-}
-
-.text-tag {
-    font: var(--text-tag);
-}
-
-.text-button-g {
-    font: var(--text-button-g);
-}
-
-.text-button-m {
-    font: var(--text-button-m);
 }
 
 .tag-coffee {
