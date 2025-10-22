@@ -251,6 +251,23 @@ input {
     color: var(--base-title);
 }
 
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.item i {
+    border-radius: 100%;
+    padding: 8px;
+    color: var(--white);
+}
+
+.item span {
+    font: var(--text-m-regular);
+    color: var(--base-text);
+}
+
 
 .hidden {
     display: none;

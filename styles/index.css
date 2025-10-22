@@ -1,22 +1,5 @@
 @import url(./global.css);
 
-.item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.item i {
-    border-radius: 100%;
-    padding: 8px;
-    color: var(--white);
-}
-
-.item span {
-    font: var(--text-m-regular);
-    color: var(--base-text);
-}
-
 .coffee-card {
     width: 16rem;
     padding: 1.25rem 1.5rem;

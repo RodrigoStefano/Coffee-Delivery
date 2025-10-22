@@ -1,0 +1,31 @@
+@import url(./global.css);
+
+#title-success {
+    padding: 5rem 0;
+}
+
+#title-success h1 {
+    font: var(--title-l);
+    color: var(--yellow-dark);
+}
+
+#title-success p {
+    font: var(--text-l-regular);
+    color: var(--base-subtitle);
+}
+
+#success-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.375rem;
+}
+
+#order-info {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid var(--yellow-dark);
+    border-radius: 6px 36px;
+}
